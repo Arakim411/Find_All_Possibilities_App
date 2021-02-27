@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">All_Possibilities</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_result">these values won\'t return any result, try others</string>
+    <string name="left">Left: %d</string>
+    <string name="maxResult">Max Result: %d</string>
+    <string name="results_to_find">Results to find: %d</string>
+    <string name="createPuzzle">Create Puzzle</string>
+    <string name="time">Time</string>
+    <string name="seconds">seconds</string>
+    <string name="possibilities_to_find">Possibilities to find</string>
+    <string name="start">Start</string>
+    <string name="_maxResult">Max Result</string>
+    <string name="maxValue1">Max Value 1</string>
+    <string name="maxValue2">Max Value 2</string>
+    <string name="maxValue3">Max Value 3</string>
+    <string name="random">Random</string>
+    <string name="check">Check</string>
+    <string name="time_up">Time Up</string>
+    <string name="back">Back</string>
+    <string name="completed">Completed</string>
+</resources>

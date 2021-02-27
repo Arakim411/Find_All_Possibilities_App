@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="generatedValuesMaxLength">2</integer> // for 2 length max value is 99
+    <integer name="resultMaxLength">3</integer>          // for 3 max value is 999
+
+</resources>

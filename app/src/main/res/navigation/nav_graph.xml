@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentCreatePuzzleViewPager">
+
+    <fragment
+        android:id="@+id/fragmentActions"
+        android:name="com.applications.all_possibilities.fragments.FragmentActions"
+        android:label="FragmentActions" >
+        <action
+            android:id="@+id/action_fragmentActions_to_fragmentCreatePuzzleViewPager"
+            app:destination="@id/fragmentCreatePuzzleViewPager" />
+        <argument
+            android:name="Puzzle"
+            app:argType="com.applications.all_possibilities.Data.Puzzle" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCreatePuzzleViewPager"
+        android:name="com.applications.all_possibilities.fragments.FragmentCreatePuzzleViewPager"
+        android:label="fragment_create_puzzle_view_pager"
+        tools:layout="@layout/fragment_create_puzzle_view_pager" >
+        <action
+            android:id="@+id/action_fragmentCreatePuzzleViewPager_to_fragmentActions"
+            app:destination="@id/fragmentActions" />
+        <action
+            android:id="@+id/action_fragmentCreatePuzzleViewPager_to_fragmentAction2"
+            app:destination="@id/fragmentAction2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAction2"
+        android:name="com.applications.all_possibilities.fragments.FragmentAction2"
+        android:label="fragment_actions2"
+        tools:layout="@layout/fragment_actions2" >
+        <action
+            android:id="@+id/action_fragmentAction2_to_fragmentCreatePuzzleViewPager"
+            app:destination="@id/fragmentCreatePuzzleViewPager" />
+        <argument
+            android:name="count"
+            app:argType="integer" />
+        <argument
+            android:name="time"
+            app:argType="long" />
+    </fragment>
+</navigation>

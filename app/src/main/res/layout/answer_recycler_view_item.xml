@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/frame"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="20" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/value1"
+            style="@style/AnswerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="5" />
+
+        <TextView
+            android:id="@+id/sign1"
+            style="@style/AnswerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            tools:text="+" />
+
+        <TextView
+            android:id="@+id/value2"
+            style="@style/AnswerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/sign2"
+            style="@style/AnswerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            tools:text="+" />
+
+        <TextView
+            android:id="@+id/value3"
+            style="@style/AnswerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            tools:text="35" />
+
+        <TextView
+            style="@style/AnswerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="=" />
+
+        <TextView
+            android:id="@+id/result"
+            style="@style/AnswerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            tools:text="50" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/isGoodAnswerImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_good_answer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
