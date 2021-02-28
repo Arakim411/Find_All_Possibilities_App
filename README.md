@@ -33,7 +33,7 @@ It is a puzzle game app which allows to improve performance of mathematical oper
 
 # Disadvantages  
 - Small amount of animations
-- Bug with nestedFragments that are cover by viewPager in [puzzleCreatorFragment](https://github.com/Arakim411/Find_All_Possibilities_App/blob/master/app/src/main/java/com/applications/all_possibilities/fragments/FragmentCreatePuzzleViewPager.kt).
+- Bug with nested Fragments that are cover by viewPager in [puzzleCreatorFragment](https://github.com/Arakim411/Find_All_Possibilities_App/blob/master/app/src/main/java/com/applications/all_possibilities/fragments/FragmentCreatePuzzleViewPager.kt).
 When we close this fragment and go to another by Navigation components. Fragments that are keep in ViewPager are null. even if fragments are added again it dosn't work. Maybe it is my fault but i am on 80 % sure that is a bug. even when screan is rotating. these fragments are not showing in viewPager but should. I found this bug in google but to repair 
 nestedFragments i must add wall of code but i want repair this on my own. Now it works becaues before i close ParentFragment i removeNestedFragment from fragmentManager and add
 them again in OnCreatView of Parent Fragment. This is not good approach and not always work (for example when screen is rotating)
