@@ -16,10 +16,15 @@ It is a puzzle game app which allows to improve performance of mathematical oper
  -  "results to find" - how much results user has to find
 
 # Technologies which was used
+- Android Studio
+- Kotlin
+- Fragments
+- mvvm
+- Data Binding
+- Navigation Component
 
-**- Android Studio**
-
-**- kotlin**
- 
+# Advantages of project
+- Data Binding and mvvm architecture makes code maintainable and helps to manage lifecycle
+- [SharedPreferencesManager("https://github.com/Arakim411/Find_All_Possibilities_App/blob/master/app/src/main/java/com/applications/all_possibilities/SharedPreferencesManager.kt") helps 
 
 
