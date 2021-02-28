@@ -24,7 +24,7 @@ It is a puzzle game app which allows to improve performance of mathematical oper
 - Navigation Component
 - Activities
 - Interfaces
-- Extension Functions
+
 
 # Advantages
 - Data Binding and mvvm architecture makes code maintainable and helps to manage lifecycle
