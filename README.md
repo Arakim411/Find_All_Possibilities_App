@@ -1,5 +1,5 @@
 # Find_All_Possibilities_App
-It is a puzzle game app which allows to improve performance of mathematical operations in memory.
+It is a puzzle game application which allows to improve performance of mathematical operations in memory.
 
 
 # Features
