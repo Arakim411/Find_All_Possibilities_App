@@ -7,11 +7,11 @@ It is a puzzle game application which allows to improve performance of mathemati
  
  
  ### First
- - user enters 3 values: value1, value2, value3 and max result of them
- - main goal is to find all possibilities  of these values using 4 signs (addition, subtraction, multiplication, division) that are not greater than max result
+ - User enters 3 values: value1, value2, value3 and max result of them
+ - Main goal is to find all possibilities  of these values using 4 signs (addition, subtraction, multiplication, division) that are not greater than max result
  
  ### Second
- - user enters 2 values "Time" and "Results to find"
+ - User enters 2 values "Time" and "Results to find"
  - "Time" - how much time user have to find results
  -  "results to find" - how much results user has to find
 
