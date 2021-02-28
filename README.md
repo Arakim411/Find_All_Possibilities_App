@@ -3,7 +3,7 @@ Is a puzzle game app. which allows to improve performance of mathematical operat
 
 
 # Features
-App has 2 modes.
+## App has 2 modes.
  
  
  ### First
