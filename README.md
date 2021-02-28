@@ -25,6 +25,7 @@ It is a puzzle game app which allows to improve performance of mathematical oper
 
 # Advantages of project
 - Data Binding and mvvm architecture makes code maintainable and helps to manage lifecycle
-- [SharedPreferencesManager](https://github.com/Arakim411/Find_All_Possibilities_App/blob/master/app/src/main/java/com/applications/all_possibilities/SharedPreferencesManager.kt) helps 
+- [SharedPreferencesManager](https://github.com/Arakim411/Find_All_Possibilities_App/blob/master/app/src/main/java/com/applications/all_possibilities/SharedPreferencesManager.kt) makes app more "user friendly" saving values of fields during creating puzzle
+- 
 
 
