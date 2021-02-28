@@ -18,6 +18,7 @@ It is a puzzle game app which allows to improve performance of mathematical oper
 # Technologies which was used
 
 **- Android Studio**
+
 **- kotlin**
  
 
