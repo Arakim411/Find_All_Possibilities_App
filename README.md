@@ -3,7 +3,7 @@ It is a puzzle game app which allows to improve performance of mathematical oper
 
 
 # Features
-## App has 2 modes.
+## App has 2 modes
  
  
  ### First
@@ -11,14 +11,13 @@ It is a puzzle game app which allows to improve performance of mathematical oper
  - main goal is to find all possibilities  of these values using 4 signs (addition, subtraction, multiplication, division) that are not greater than max result
  
  ### Second
- - user enters 2 values "Time" and "results to find"
+ - user enters 2 values "Time" and "Results to find"
  - "Time" - how much time user have to find results
  -  "results to find" - how much results user has to find
 
+# Technologies which was used
 
-
-
-
+**Android Studio**
  
 
 
